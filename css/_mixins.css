@@ -1,0 +1,98 @@
+/* Bootstrap Button Variant */
+.button-variant {
+  color: var(--color);
+  border-color: var(--border);
+  background-color: var(--background);
+}
+
+.button-variant.focus,
+.button-variant:focus {
+  color: var(--color);
+  border-color: darken(var(--border), 25%);
+  background-color: darken(var(--background), 10%);
+}
+
+.button-variant:hover {
+  color: var(--color);
+  border-color: darken(var(--border), 12%);
+  background-color: darken(var(--background), 10%);
+}
+
+.button-variant.active,
+.button-variant:active,
+.open > .button-variant.dropdown-toggle {
+  color: var(--color);
+  border-color: darken(var(--border), 12%);
+  background-color: darken(var(--background), 10%);
+}
+
+.button-variant.active.focus,
+.button-variant.active:focus,
+.button-variant.active:hover,
+.button-variant:active.focus,
+.button-variant:active:focus,
+.button-variant:active:hover,
+.open > .button-variant.dropdown-toggle.focus,
+.open > .button-variant.dropdown-toggle:focus,
+.open > .button-variant.dropdown-toggle:hover {
+  color: var(--color);
+  border-color: darken(var(--border), 25%);
+  background-color: darken(var(--background), 17%);
+}
+
+.button-variant.active,
+.button-variant:active,
+.open > .button-variant.dropdown-toggle {
+  background-image: none;
+}
+
+.button-variant.disabled,
+.button-variant[disabled],
+fieldset[disabled] .button-variant {
+  color: var(--color);
+  border-color: var(--border);
+  background-color: var(--background);
+}
+
+.button-variant.disabled.focus,
+.button-variant.disabled:focus,
+.button-variant.disabled:hover,
+.button-variant[disabled].focus,
+.button-variant[disabled]:focus,
+.button-variant[disabled]:hover,
+fieldset[disabled] .button-variant.focus,
+fieldset[disabled] .button-variant:focus,
+fieldset[disabled] .button-variant:hover {
+  border-color: var(--border);
+  background-color: var(--background);
+}
+
+.button-variant .badge {
+  color: var(--background);
+  background-color: var(--color);
+}
+
+/* Transition All */
+.transition-all {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* Background Cover */
+.background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Serif Font */
+.serif-font {
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+/* Sans-serif Font */
+.sans-serif-font {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
