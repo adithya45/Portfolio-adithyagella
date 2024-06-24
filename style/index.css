@@ -714,114 +714,116 @@ iframe::-webkit-scrollbar-thumb:hover {
 }
 
 /*	FOR MOBILE DEVICES */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
 
+	/* Example styles for tablets and smaller desktop screens */
+  
 	#particles-js {
-		min-height: 580px;
+	  min-height: 480px; /* Adjust as needed */
 	}
-
+  
 	.landing h1 {
-		font-size: 40px;
-		top: 100px;
-		left: 5vw;
-		right: 5vw;
-		margin: 0vw;
+	  font-size: 36px; /* Adjust font size */
+	  top: 80px; /* Adjust positioning */
+	  left: 5vw;
+	  right: 5vw;
+	  margin: 0vw;
 	}
-
+  
 	.typed-text {
-		font-size: 20px;
-		top: 150px;
-		display: inline;
+	  font-size: 18px; /* Adjust font size */
+	  top: 120px; /* Adjust positioning */
+	  display: inline;
 	}
-
+  
 	#right1 {
-		position: absolute;
-		top: 70vh;
-		height: 40vw;
-		width: 60vw;
+	  position: absolute;
+	  top: 60vh; /* Adjust positioning */
+	  height: 35vw; /* Adjust size */
+	  width: 50vw; /* Adjust size */
 	}
-
+  
 	.main-container {
-		position: absolute;
-		margin-top: -14vw;
-		padding-top: 9vw;
+	  position: absolute;
+	  margin-top: -12vw; /* Adjust positioning */
+	  padding-top: 7vw; /* Adjust padding */
 	}
-
+  
 	.card-group {
-		margin-right: 8vw;
+	  margin-right: 6vw; /* Adjust margin */
 	}
-
+  
 	.about-content1 {
-		font-size: 0.8rem;
-		padding-left: 1vw;
-		padding-right: 1vw;
+	  font-size: 0.9rem; /* Adjust font size */
+	  padding-left: 1vw;
+	  padding-right: 1vw;
 	}
-
+  
 	.menu {
-		height: 8vw;
-		width: 10vw;
-		right: 5vw;
-		top: 4vw;
+	  height: 6vw; /* Adjust height */
+	  width: 8vw; /* Adjust width */
+	  right: 5vw;
+	  top: 3vw;
 	}
-
+  
 	.menu.active {
-		width: calc(100% - 10px);
-		margin-bottom: 8vw;
+	  width: calc(100% - 10px); /* Adjust width */
+	  margin-bottom: 6vw; /* Adjust margin */
 	}
-
+  
 	.menu .menuContent ul li {
-		font-size: 3vw;
-		margin-left: 1.5vw;
-		margin-right: 1.5vw;
-		right: 8vw;
-		font-weight: bold;
+	  font-size: 2.5vw; /* Adjust font size */
+	  margin-left: 1vw; /* Adjust margin */
+	  margin-right: 1vw; /* Adjust margin */
+	  right: 6vw; /* Adjust positioning */
+	  font-weight: bold;
 	}
-
+  
 	.btn-expand {
-		font-size: 3vw;
-		padding: 3vw;
+	  font-size: 2.5vw; /* Adjust font size */
+	  padding: 2.5vw; /* Adjust padding */
 	}
-
+  
 	.profile {
-		display: none;
+	  display: none; /* Hide profile image on smaller screens */
 	}
-
+  
 	#sec6 h3 {
-		font-size: 4vw;
+	  font-size: 3.5vw; /* Adjust font size */
 	}
-
+  
 	.landing-projects-container h1 {
-		font-size: 8vw;
+	  font-size: 6vw; /* Adjust font size */
 	}
-
+  
 	.projImg {
-		height: 55vw;
-		width: 50vw;
+	  height: 45vw; /* Adjust size */
+	  width: 40vw; /* Adjust size */
 	}
-
+  
 	.featured-project {
-		margin: 3vw;
+	  margin: 2.5vw; /* Adjust margin */
 	}
-
+  
 	.projDesc p {
-		font-size: 3vw;
-		text-align: justify-all;
+	  font-size: 2.5vw; /* Adjust font size */
 	}
-
+  
 	.projDesc h3 {
-		margin-top: 0vw;
+	  margin-top: 0vw;
 	}
-
+  
 	.projDesc i {
-		margin-top: -4vw;
+	  margin-top: -3vw; /* Adjust margin */
 	}
-
+  
 	.skills h1 {
-		font-size: 8vw;
+	  font-size: 6vw; /* Adjust font size */
 	}
-
+  
 	.about-container h1 {
-		font-size: 8vw;
+	  font-size: 6vw; /* Adjust font size */
 	}
-
-}
+  
+  }
+  
